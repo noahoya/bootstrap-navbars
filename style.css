@@ -18,3 +18,23 @@
 .topbar .navbar {
   min-height: 64px;
 }
+
+/* Morning Brew styles */
+.mbrew .nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2px;
+  padding-bottom: 0.5rem;
+  color: #E33E19;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  cursor: pointer !important;
+}
+
+/* Active item: black text, tighter top padding, thicker top border */
+.mbrew .nav-item.active {
+  padding-top: 0;
+  color: black;
+  border-top-width: 3px !important; /* ensure the thicker line shows */
+}
