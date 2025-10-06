@@ -1,0 +1,20 @@
+/* Make links/icons white in the topbar */
+.topbar .topbar-link,
+.topbar .nav-link,
+.topbar .navbar-brand,
+.topbar .navbar-brand i {
+  color: white;
+}
+
+/* Remove default underline on hover, keep white */
+.topbar .topbar-link:hover,
+.topbar .nav-link:hover,
+.topbar .navbar-brand:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Optional: tighten up vertical rhythm a bit */
+.topbar .navbar {
+  min-height: 64px;
+}

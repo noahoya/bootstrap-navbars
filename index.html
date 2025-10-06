@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap Navbars — WOD 1</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Your styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Full-width top bar -->
+  <div class="container-fluid px-0 topbar" style="background-color:#133B40;">
+    <nav class="navbar navbar-expand-lg bg-gradient py-2">
+      <div class="container">
+
+        <!-- Left: Instagram icon -->
+        <ul class="nav justify-content-start flex-grow-1">
+          <li class="nav-item">
+            <a class="navbar-brand topbar-link" href="#" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Center: Boardroom logo -->
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="navbar-brand mx-auto topbar-link" href="#">
+              <!-- Put your logo image in the project folder and keep the filename below -->
+              <img src="boardroom-logo.png" alt="The Boardroom Kailua" height="40">
+            </a>
+          </li>
+        </ul>
+
+        <!-- Right: Menu button -->
+        <ul class="nav justify-content-end flex-grow-1">
+          <li class="nav-item ms-auto">
+            <button class="btn btn-dark">Menu</button>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+
+  <!-- (Optional) page filler so you can see the bar spacing -->
+  <div class="container my-5">
+    <p class="text-muted">WOD 1 placeholder content.</p>
+  </div>
+
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+          crossorigin="anonymous"></script>
+</body>
+</html>
