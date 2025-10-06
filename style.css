@@ -39,3 +39,10 @@
   border-top-width: 3px !important; /* ensure the thicker line shows */
 }
 
+/* Buzz's: ensure headings are white and tight */
+.container-fluid .nav h4 { 
+  color: white; 
+  font-weight: 600; 
+  letter-spacing: .5px;
+}
+
