@@ -46,3 +46,14 @@
   letter-spacing: .5px;
 }
 
+/* Aloha Beer navbar styles */
+.navbar .nav-link {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
